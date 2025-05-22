@@ -1,7 +1,22 @@
 # Quiz_Game
-Presents 10 general knowledge questions . 
-<br>Displays four options for each question (labeled A–D). 
-<br>Takes user input (a, b, c, or d) as the selected answer. 
-<br>Checks the answer against the correct one stored in a dictionary.  
-Updates the score:  +4 points for a correct answer.  −1 point for a wrong answer. 
-<br>displays the total score out of 40.
+
+A simple command-line based Quiz Game built in Python that tests your general knowledge.
+
+## Features
+
+- Presents **10 general knowledge questions**.
+- Each question has **four options** labeled A–D.
+- Accepts user input (`a`, `b`, `c`, or `d`) as the selected answer.
+- Compares user input with the **correct answer stored in a dictionary**.
+- **Score system**:
+  - ✅ +4 points for each correct answer.
+  - ❌ −1 point for each wrong answer.
+- Displays the **total score out of 40** at the end of the game.
+
+## How to Run
+
+1. Make sure you have Python installed.
+2. Clone this repository or download the code.
+3. Run the script:
+   ```bash
+   python quiz_game.py
